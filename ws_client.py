@@ -14,6 +14,7 @@ Naturally, the server ws_server.py must be started before this client attempts t
 
 import argparse
 import asyncio
+from pathlib import Path
 
 from sp_iotsim.client import main
 
